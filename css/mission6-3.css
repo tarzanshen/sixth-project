@@ -5,6 +5,7 @@
 a{
     color: white;
     text-decoration-line: none;
+    outline: none;
 }
 .header
 {

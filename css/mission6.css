@@ -9,6 +9,10 @@
     position: relative;
     background-color:rgb(41, 189, 224); 
 }
+a
+{
+    outline: none;
+}
 .top_left
 {
     position: absolute;

@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size:62.5%;
+}
+.top{
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    background-color:rgb(41, 189, 224); 
+}
+.top_left
+{
+    position: absolute;
+    background-image: url(image/01.png);
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 30px;
+    top: 11px;
+    left: 12px;
+    transform: scale(0.7);
+}
+.main
+{
+    width:100vw;
+    background-color: rgb(240, 240, 240);
+    padding-top: 12px;
+   
+}
+.main_auto
+{
+    width: 90%;
+    margin: auto;
+    
+}
+.main_top
+{
+    width: 100%;
+    line-height: 4;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #dadada;
+    color: #9a9a9a;
+    padding-right: 5px;
+    
+}
+
+.main_top_2
+{
+    background: url(image/02.png) no-repeat;
+    width: 20px;
+    height: 42px;
+    float: right;
+    transform: scale(0.8);
+    margin-top: 12px;
+    
+}
+.main_value
+{
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid #dadada;
+    background-color: white;
+    position: relative;
+}
+.main_value_1
+{
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    border-bottom: 1px solid rgb(251, 180, 53);
+}
+.main_value_1 span
+{
+    color: rgb(251, 180, 53);
+}
+.main_value_2 
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+}
+.main_value_2 span
+{
+    color: white;
+    background-color:rgb(41, 189, 224); 
+    line-height:5;
+    width: 100%;
+    display: block;
+    letter-spacing: 0.5rem;
+    
+}
+.triangle
+{
+    
+    width: 0;
+    height: 0;
+    border-left: 34px solid #fbb435;
+    border-top: 34px solid transparent;
+    border-bottom: 34px solid transparent;
+    transform: scale(0.6);
+    position: absolute;
+    right: 0%;
+    top: 40%;
+}
+.main_value_2 p{
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #9a9a9a;
+    margin-bottom: 0.5rem;
+}
+.footer
+{
+    margin:auto;
+    margin-bottom: 10px;
+}
+.footer li
+{
+    float: left;
+    list-style: none;
+    border-radius: 18px;
+    text-align: center;
+    background-color: #dadada;
+    height: 14px;
+    width: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.footer li:hover 
+{
+    background-color: rgb(41, 189, 224);
+}
+/*    index2  
+
+
+
+
+
+
+
+*/

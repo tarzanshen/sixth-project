@@ -111,11 +111,17 @@ a{
 .rule_1
 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap
     
 }
-
+.rule_1 p
+{
+    margin-right: 22px;
+}
+.rule_1 p:nth-child(4)
+{
+    margin-right: 20px;
+}
 .time
 {
     width: 100%;
